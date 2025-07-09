@@ -1,6 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
-// Komponen User
 import Home from '../components/Home.vue'
 import Login from '../components/Login.vue'
 import Register from '../components/Register.vue'
@@ -9,8 +7,6 @@ import RestaurantDetail from '../components/RestaurantDetail.vue'
 import Cart from '../components/Cart.vue'
 import Orders from '../components/Orders.vue'
 import Profile from '../components/Profile.vue'
-
-// Komponen Admin
 import AdminDashboard from '../components/admin/AdminDashboard.vue'
 import ManageRestaurants from '../components/admin/ManageRestaurants.vue'
 import ManageMenus from '../components/admin/ManageMenus.vue'
@@ -25,7 +21,6 @@ const routes = [
   { path: '/cart', name: 'Cart', component: Cart },
   { path: '/orders', name: 'Orders', component: Orders },
   { path: '/profile', name: 'Profile', component: Profile },
-
   {
     path: '/admin',
     component: AdminDashboard,

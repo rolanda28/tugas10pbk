@@ -1,0 +1,98 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Restoran A",
+      "location": "Jakarta",
+      "description": "Spesialis makanan Indonesia",
+      "menu": [
+        {
+          "id": 1,
+          "name": "Nasi Goreng",
+          "price": 20000
+        },
+        {
+          "id": 2,
+          "name": "Mie Ayam",
+          "price": 18000
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Restoran B",
+      "location": "Bandung",
+      "description": "Makanan cepat saji dan minuman segar",
+      "menu": [
+        {
+          "id": 1,
+          "name": "Burger",
+          "price": 25000
+        },
+        {
+          "id": 2,
+          "name": "Es Teh",
+          "price": 8000
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "47ef",
+      "items": [
+        {
+          "id": 2,
+          "name": "Es Teh",
+          "price": 8000,
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "name": "Burger",
+          "price": 25000,
+          "quantity": 1
+        }
+      ],
+      "date": "2025-07-08T01:36:48.273Z"
+    },
+    {
+      "id": "a7d8",
+      "items": [
+        {
+          "id": 1,
+          "name": "Nasi Goreng",
+          "price": 20000,
+          "quantity": 1
+        }
+      ],
+      "date": "2025-07-08T01:49:19.238Z"
+    },
+    {
+      "id": "1d3c",
+      "items": [
+        {
+          "id": 2,
+          "name": "Es Teh",
+          "price": 8000,
+          "quantity": 1
+        },
+        {
+          "id": 1,
+          "name": "Burger",
+          "price": 25000,
+          "quantity": 1
+        }
+      ],
+      "date": "2025-07-08T01:51:59.691Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "49aa",
+      "name": "111",
+      "email": "11@gmail.com",
+      "password": "11"
+    }
+  ]
+}
